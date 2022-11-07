@@ -1,0 +1,1 @@
+python3 export.py --weights ../roar_ros_inference_node/src/py_yolo_inference_node/models/oct_17_5_22best_reparam.pt --grid --end2end --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 1032 772 --max-wh 1032
